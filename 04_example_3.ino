@@ -12,7 +12,7 @@ void setup() {
   Serial.begin(115200);
 
   while (!Serial) {
-    // 시리얼 연결 대기
+    
   }
 
   Serial.println("Hello World!");
@@ -26,7 +26,7 @@ void loop() {
   Serial.println(++count);
 
   toggle = toggle_state(toggle);
-  digitalWrite(PIN_LED, toggle);  // 세미콜론 추가
+  digitalWrite(PIN_LED, toggle);  
 
   delay(1000);
 }
