@@ -16,7 +16,7 @@
 #define _EMA_ALPHA 0.5    // EMA weight of new sample (range: 0 to 1)
                           // Setting EMA to 1 effectively disables EMA filter.
 
-#define _N 30
+#define _N 3
 
 // global variables
 unsigned long last_sampling_time;   // unit: msec
